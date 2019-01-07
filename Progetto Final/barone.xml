@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Metadata  -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><persName><roleName type="nobile">Barone</roleName></persName> Rampante</title>
+                <author>Rossella Pichichero</author>
+                <respStmt>
+                    <resp>converzione TEI P5 a cura di</resp>
+                    <name xml:id="MRS">Rossella Pichichero</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>UNIPI</distributor>
+                <pubPlace>PISA</pubPlace>
+                <publisher>Università di Pisa</publisher>
+                <date when="2018-12-17">Gennaio 2019</date>
+                <availability status="restricted">
+                    <p>Riproduzione vietata.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title><persName><roleName type="nobile">Barone</roleName></persName> Rampante</title>
+                    <author>Italo Calvino</author>
+                    <publisher>OSCAR MONDADORI</publisher>
+                    <date when="2017">2017</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Questo progetto è stato realizzato per l'esame di Codifica di Testi per l'Anno Accademico 2018/2019. Per la codifica ho
+                    utilizzato TEI-lite.Ho preso in considerazione i luoghi, i nomi propri di persona, i titoli nobiliari e le date. Ho
+                    inoltre codificato le espressioni in lingua straniera, poichè spesso presenti nel testo originale. </p>
+                <p> Per realizzare il progetto ho utilizzato XML, XSL e CSS.</p>
+
+
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <!-- Content -->
+    <text>
+        <!-- Title and Abstract -->
+        <front>
+
+            <titlePage rend="center">
+                <byline><persName><roleName type="nobile">Barone</roleName></persName> Rampante</byline>
+            </titlePage>
+
+            <div>
+                <head rend="frontHead">Volume</head>
+                <figure>
+
+                    <graphic url="images/volume.jpg"/>
+                    <figDesc>Volume del libro "<persName><roleName type="nobile">Barone</roleName></persName> Rampante"</figDesc>
+                </figure>
+
+                <p> Il romanzo inizia il <date when="15 giugno 1767">15 giugno 1767</date> data in cui il protagonista, l'adolescente <name
+                        type="persona">Cosimo</name> Piovasco di Rondò, ha un diverbio familiare dovuto al riufiuto di mangiare un piatto di
+                    prelibate lumache preparato dalla sorella. Il litigio sfocia nella fuga del ragazzo sul più maestoso albero del giardino
+                    di casa per non scendervi mai più.</p>
+                <p>
+                    <name type="persona">Cosimo</name> dimostra ben presto che il suo non è solo un capriccio:spostandosi solo attraverso
+                    boschi e foreste e costruendosi a poco a poco una dimensione quotidiana anche sugli alberi.Il ragazzo si dedica allo
+                    studio della filosofia, arrivando addirittura a conoscere <name type="persona">Voltaire</name> .Il protagonista conosce
+                        <name type="persona">Viola</name>, una ragazzina di cui si innamora. Nel frattempo soffiano anche i venti della
+                    Rivoluzione Francese. Il protagonista arriverà ad incontrare <name type="persona">Napoleone Bonaparte</name> rimanendone
+                    tuttavia assai deluso.Il romanzo si chiude allora con l'ultimo colpo di scena: anziano e provato dagli anni sugli
+                    alberi, <name type="persona">Cosimo</name> non si arrende e non scende a terra, rispettando fino all’ultimo la propria
+                    promessa. Al passaggio di una mongolfiera, si aggrappa ad un cima penzolante e scompare all'orizzonte.</p>
+                <p> Lo stile di vita alternativo di <name type="persona">Cosimo</name> si traduce col tempo in un percorso di formazione e
+                    maturazione che attraverso le varie avventure, che renderà la lettura piacevole ad adulti e bambini. </p>
+            </div>
+        </front>
+        <!-- Text -->
+        <body>
+            <!-- Pagina 3 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">- Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_03.jpg"/>
+                    <figDesc>Foto pagina tre</figDesc>
+                </figure>
+                <p> Fu il <date when="1767-06-15">15 di giugno del 1767</date> che <name type="persona">Cosimo</name> Piovasco di <name
+                        type="luogo">Rondò</name>, mio fratello, sedette per l’ultima volta in mezzo a noi. Ricordo come fosse oggi. Eravamo
+                    nella sala da pranzo della nostra villa d’<name type="luogo">Ombrosa</name>, le finestre inquadravano i folti rami del
+                    grande elce del parco. Era mezzogiorno, e la nostra famiglia per vecchia tradizione sedeva a tavola a quell’ora,
+                    nonostante fosse già invalsa tra i nobili la moda, venuta dalla poco mattiniera Corte di <name type="luogo"
+                        >Francia</name>, d’andare a desinare a metà del pomeriggio. Tirava vento dal mare, ricordo, e si muovevano le
+                    foglie. <name type="persona">Cosimo</name> disse: <q>- Ho detto che non voglio e non voglio! - </q>e respinse il piatto
+                    di lumache. Mai s’era vista disubbidienza più grave. </p>
+
+
+
+                <p> A capotavola era il <persName><roleName type="nobile">Barone</roleName></persName>
+                    <name type="persona">Arminio</name> Piovasco di<name type="luogo">Rondò</name>, nostro padre, con la parrucca lunga
+                    sulle orecchie alla <name type="persona">Luigi</name> XIV, fuori tempo come tante cose sue. Tra me e mio fratello sedeva
+                            l’<persName><roleName type="nobile">Abate</roleName></persName>
+                    <name type="persona">Fauchelafleur</name>, elemosiniere della nostra famiglia ed aio di noi ragazzi. Di fronte avevamo
+                    la Generalessa <name type="persona">Corradina</name> di <name type="luogo">Rondò</name>, nostra madre, e nostra sorella
+                        <name type="persona">Battista</name>, monaca di casa. All’altro capo della tavola, rimpetto a nostro padre, sedeva,
+                    vestito alla turca, il <persName><roleName type="nobile">Cavalier</roleName></persName> Avvocato <name type="persona"
+                        >Enea Silvio Carrega</name>, amministratore e idraulico dei nostri poderi, e nostro zio naturale, in quanto fratello
+                    illegittimo di nostro padre. </p>
+            </div>
+
+
+            <!-- Pagina 4 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 4 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_04.jpg"/>
+                    <figDesc>foto pagina quattro</figDesc>
+                </figure>
+                <p> Da pochi mesi, <name type="persona">Cosimo</name> avendo compiuto i dodici anni ed io gli otto, eravamo stati ammessi
+                    allo stesso desco dei nostri genitori; ossia, io avevo beneficiato della stessa promozione di mio fratello prima del
+                    tempo, perché non vollero lasciarmi di là a mangiare da solo. Dico beneficiato così per dire: in realtà sia per <name
+                        type="persona">Cosimo</name> che per me era finita la cuccagna, e rimpiangevamo i desinari nella nostra stanzetta,
+                    noi due soli con l’<persName><roleName type="nobile">Abate</roleName></persName>
+                    <name type="persona">Fauchelafleur</name>. L’<persName><roleName type="nobile">Abate</roleName></persName> era un
+                    vecchietto secco e grinzoso, che aveva fama di giansenista, ed era difatti fuggito dal Delfìnato, sua terra natale, per
+                    scampare a un processo dell’Inquisizione. Ma il carattere rigoroso che di lui solitamente tutti lodavano, la severità
+                    interiore che imponeva a sé e agli altri, cedevano continuamente a una sua fondamentale vocazione per l’indifferenza e
+                    il lasciar correre, come se le sue lunghe meditazioni a occhi fìssi nel vuoto non avessero approdato che a una gran noia
+                    e svogliatezza, e in ogni difficoltà anche minima vedesse il segno d’una fatalità cui non valeva opporsi. I nostri pasti
+                    in compagnia dell’<persName><roleName type="nobile">Abate</roleName></persName> cominciavano dopo lunghe orazioni, con
+                    movimenti di cucchiai composti, rituali, silenziosi, e guai a chi alzava gli occhi dal piatto o faceva anche il più
+                    lieve risucchio sorbendo il brodo; ma alla fine della minestra l’<persName><roleName type="nobile"
+                        >Abate</roleName></persName> era già stanco, annoiato, guardava nel vuoto, schioccava la lingua a ogni sorso di
+                    vino, come se soltanto le sensazioni più superficiali e caduche riuscissero a raggiungerlo; alla pietanza noi già ci
+                    potevamo mette-, re a mangiare con le mani, e finivamo il pasto tirandoci torsoli di pera, mentre l’<persName><roleName
+                            type="nobile">Abate</roleName></persName> faceva cadere ogni tanto uno dei suoi pigri: - ... <foreign>Ooo
+                        bien!... </foreign>Ooo alors! </p>
+                <p> Adesso, invece, stando a tavola con la famiglia, prendevano corpo i rancori familiari, capitolo triste dell’infanzia.
+                    Nostro padre, nostra madre sempre lì davanti, l’uso delle posate per il pollo, e sta’ dritto, e via i gomiti dalla
+                    tavola, un continuo! e per di più quell’antipatica di nostra sorella </p>
+
+            </div>
+
+            <!-- Pagina 5 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 5 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_05.jpg"/>
+                    <figDesc>foto pagina cinque</figDesc>
+                </figure>
+
+                <p>
+                    <name type="persona">Battista</name>. Cominciò una serie di sgridate, di ripicchi, di castighi, d’im- puntature, fino al
+                    giorno in cui <name type="persona">Cosimo</name> rifiutò le lumache e decise di separare la sua sorte dalla nostra. </p>
+                <p> Di quest’accumularsi di risentimenti familiari mi resi conto solo in seguito: allora avevo otto anni, tutto mi pareva un
+                    gioco, la guerra di noi ragazzi contro i grandi era la solita di tutti i ragazzi, non capivo che l’ostinazione che ci
+                    metteva mio fratello celava qualcosa di più fondo.</p>
+                <p>Il <persName><roleName type="nobile">Barone</roleName></persName> nostro padre era un uomo noioso, questo è certo, anche
+                    se non cattivo: noioso perché la sua vita era dominata da pensieri stonati, come spesso succede nelle epoche di
+                    trapasso. L’agitazione dei tempi a molti comunica un bisogno d’agitarsi anche loro, ma tutto all’incontrario, fuori
+                    strada: così nostro padre, con quello che bolliva allora in pentola, vantava pretese al titolo di Duca d’<name
+                        type="luogo">Ombrosa</name>, e non pensava ad altro che a genealogie e successioni e rivalità e alleanze con i
+                    potentati vicini e lontani</p>
+                <p> Perciò a casa nostra si viveva sempre come si fosse alle prove generali d’un invito a Corte, non so se quella
+                    dell’Imperatrice d’<name type="luogo">Austria</name>, di Re <name type="persona">Luigi</name>, o magari di quei
+                    montanari di <name type="luogo">Torino</name>. Veniva servito un tacchino, e nostro padre a guatarci se lo scalcavamo e
+                    spolpavamo secondo tutte le regole reali, e l’<persName><roleName type="nobile">Abate</roleName></persName> quasi non ne
+                    assaggiava per non farsi cogliere in fallo, lui che doveva tener bordone a nostro padre nei suoi rimbrotti. Del
+                            <persName><roleName type="nobile">Cavalier</roleName></persName> Avvocato <name type="persona">Carrega</name>,
+                    poi, avevamo scoperto il fondo d’animo falso: faceva sparire cosciotti interi sotto le falde della sua zimarra turca,
+                    per poi mangiarseli a morsi come piaceva a lui, nascosto nella vigna; e noi avremmo giurato (sebbene mai fossimo
+                    riusciti a coglierlo sul fatto, tanto leste erano le sue mosse) che venisse a tavola con una tasca piena d’ossicini già
+                    spolpati, da lasciare nel suo piatto al posto dei quarti di tacchino fatti sparire sani sani. Nostra madre Generalessa
+                    non contava, perché usava bruschi modi militari anche nel servirsi a tavola, <q><foreign>- So, Noch ein wenig! Gut!
+                        </foreign></q>- e nessu- </p>
+            </div>
+
+
+            <!-- Pagina 6 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 6- Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_06.jpg"/>
+                    <figDesc>foto pagina sei</figDesc>
+                </figure>
+                <p> no ci trovava da ridire; ma con noi teneva, se non all’etichetta, alla disciplina, e dava man forte al
+                            <persName><roleName type="nobile">Barone</roleName></persName> coi suoi ordini da piazza d’armi,<q><foreign> -
+                            Sitz’ ruhig! E pulisciti il muso!</foreign></q> - L’unica che si trovasse a suo agio era <name type="persona"
+                        >Battista</name>, la monaca di casa, che scarnificava pollastri con un accanimento minuzioso, fibra per fibra, con
+                    certi coltellini appuntiti che aveva solo lei, specie dilancette da chirurgo. Il <persName><roleName type="nobile"
+                            >Barone</roleName></persName>, che pure avrebbe dovuto portarcela ad esempio, non osava guardarla, perché, con
+                    quegli occhi stralunati sotto le ali della cuffia inamidata, i denti stretti in quella sua gialla faccina da topo,
+                    faceva paura anche a lui. Si capisce quindi come fosse la tavola il luogo dove venivano alla luce tutti gli antagonismi,
+                    le incompatibilità tra noi, e anche tutte le nostre follie e ipocrisie; e come proprio a tavola si determinasse la
+                    ribellione di <name type="persona">Cosimo</name>. Per questo mi dilungo a raccontare, tanto di tavole imbandite nella
+                    vita di mio fratello non ne troveremo più, si può esser certi.</p>
+                <p> Era anche l’unico posto in cui ci incontravamo coi grandi. Per il resto della giornata nostra madre stava ritirata nelle
+                    sue stanze a fare pizzi e ricami e fìlé, perché la Generalessa in verità solo a questi lavori tradizionalmente donneschi
+                    sapeva accudire e solo in essi sfogava la sua passione guerriera. Erano pizzi e ricami che rappresentavano di solito
+                    mappe geografìche; e stesi su cuscini o drappi d’arazzo, nostra madre li punteggiava di spilli e bandierine, segnando i
+                    piani di battaglia delle Guerre di Successione, che conosceva a menadito. Oppure ricamava cannoni, con le varie
+                    traiettorie che partivano dalla bocca da fuoco, e le forcelle di tiro, e gli angoli di proiezione, perché era molto
+                    competente di balistica, e aveva per di più a disposizione tutta la biblioteca di suo padre il Generale, con trattati
+                    d’arte militare e tavole di tiro e atlanti. Nostra madre era una <name type="persona">VonKurtewitz</name>, <name
+                        type="persona">Konradine</name>, figlia del Generale Konrad <name type="persona">VonKurtewitz</name>, che vent’anni
+                    prima aveva occupato le nostre terre al comando delle truppe di <name type="persona">Maria</name>
+                </p>
+            </div>
+
+
+            <!-- Pagina 7 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 7 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_07.jpg"/>
+                    <figDesc> foto pagina sette</figDesc>
+                </figure>
+                <p>
+                    <name type="persona">Teresa</name> d’<name type="luogo">Austria</name>. Orfana di madre, il Generale se la portava
+                    dietro al campo; niente di romanzesco, viaggiavano ben equipaggiati, alloggiati nei castelli migliori, con uno stuolo di
+                    serve, e lei passava le giornate facendo pizzi al tombolo; quello che si racconta, che andasse in battaglia anche lei, a
+                    cavallo, sono tutte leggende; era sempre stata una donnetta con la pelle rosata e il naso in su come ce la ricordiamo
+                    noi, ma le era rimasta quella paterna passione militare, forse per protesta contro suo marito.</p>
+                <p>Nostro padre era tra i pochi nobili delle nostre parti che si fossero schierati con gli Imperiali in quella guerra: aveva
+                    accolto a braccia aperte il Generale <name type="persona">VonKurtewitz</name> nel suo feudo, gli aveva messo a
+                    disposizione i suoi uomini, e per meglio dimostrare la sua dedizione alla causa imperiale aveva sposato <name
+                        type="persona">Konradine</name>, tutto sempre nella speranza del Ducato, e gli andò male anche allora, come al
+                    solito, perché gli Imperiali sloggiarono presto e i Genovesi lo caricarono di tasse. Però ci aveva guadagnato una brava
+                    sposa, la Generalessa, come venne chiamata dopo che il padre morì nella spedizione di <name type="luogo"
+                    >Provenza</name>, e <name type="persona">Maria Teresa</name> le mandò un collare d’oro su un cuscino di damasco; una
+                    sposa con cui egli andò quasi sempre d’accordo, anche se lei, allevata negli accampamenti, non sognava che eserciti e
+                    battaglie e lo rimproverava di non essere altro che un maneggione sfortunato.</p>
+                <p>Ma in fondo erano tutt’e due rimasti ai tempi delle Guerre di Successione, lei con le artiglierie per la testa, lui con
+                    gli alberi genealogici; lei che sognava per noi figlioli un grado in un esercito non importa quale, lui che ci vedeva
+                    invece sposati a qualche <persName><roleName type="nobile">Granduchessa</roleName></persName> elettrice dell’Impero...
+                    Con tutto questo, furono degli ottimi genitori, ma talmente distratti che noi due potemmo venir su quasi abbandonati a
+                    noi stessi. Fu un male o un bene? E chi può dirlo? La vita di <name type="persona">Cosimo</name> fu tanto fuori del
+                    comune, la mia così regolata e modesta, eppure la nostra fanciullezza tra- </p>
+            </div>
+
+
+            <!-- Pagina 8 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 8 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_08.jpg"/>
+                    <figDesc>foto pagina otto</figDesc>
+                </figure>
+                <p> scorse insieme, indifferenti entrambi a questi rovelli degli adulti, cercando vie diverse da quelle battute dalla
+                    gente.</p>
+                <p> Ci arrampicavamo sugli alberi (questi primi giochi innocenti si caricano adesso nel mio ricordo come d’una luce
+                    d’iniziazione, di presagio; ma chi ci pensava, allora?), risalivamo i torrenti saltando da uno scoglio all’altro,
+                    esploravamo caverne in riva al mare, scivolavamo per le balaustre di marmo delle scalinate della villa. Fu da una di
+                    queste scivolate che ebbe origine per <name type="persona">Cosimo</name> una delle più gravi ragioni d’urto coi
+                    genitori, perché fu punito, ingiustamente, egli ritenne, e da allora covò un rancore contro la famiglia (o la società? o
+                    il mondo in genere?) che s’espresse poi nella sua decisione del <date when="15 giugno">15 giugno</date>.</p>
+                <p>Di scivolare per la balaustra di marmo delle scale, a dire il vero, eravamo stati digià diffidati, non per paura che ci
+                    rompessimo una gamba o un braccio, che di questo i nostri genitori non si preoccu- parono mai e fu perciò - io credo che
+                    non ci rompemmo mai nulla; ma perché crescendo e aumentando di peso potevamo buttar giù le statue di antenati che nostro
+                    padre aveva fatto porre sui pila- strini terminali delle balaustre a ogni rampa di scale. Difatti, <name type="persona"
+                        >Cosimo</name> una volta aveva già fatto crollare un trisavolo vescovo, con la mitria e tutto; fu punito, e da
+                    allora imparò a frenare un attimo prima d’arrivare alla fine della rampa e a saltar giù proprio a un pelo dallo sbattere
+                    contro la statua. Anch’io imparai, perché lo seguivo in tutto, solo che io, sempre più modesto e prudente, saltavo giù a
+                    metà rampa, oppure facevo le scivolate a pezzettini, con frenate continue. Un giorno lui scendeva per la balaustra come
+                    una freccia, e chi c’era che saliva per le scale! L’<persName><roleName type="nobile">Abate</roleName></persName>
+                    <name type="persona">Fauchelafleur</name> che se n’andava a zonzo col breviario aperto davanti, ma con lo sguardo fisso
+                    nel vuoto come una gallina. Fosse stato mezz’addormentato come il solito! No, era in uno di quei momenti che pure gli
+                    venivano, d’estrema attenzione e apprensione per tutte le cose. Vede <name type="persona">Cosimo</name>, pensa: ba- </p>
+            </div>
+
+
+            <!-- Pagina 9 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 9 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_09.jpg"/>
+                    <figDesc>foto pagina nove</figDesc>
+                </figure>
+
+                <p> laustra, statua, ora ci sbatte, ora sgridano anche me (perché ad ogni monelleria nostra veniva sgridato anche lui che
+                    non sapeva sorvegliarci) e si butta sulla balaustra a trattenere mio fratello. <name type="persona">Cosimo</name> sbatte
+                    contro l’<persName><roleName type="nobile">Abate</roleName></persName>, lo travolge giù per la balaustra (era un
+                    vecchiettino pelle e ossa), non può frenare, cozza con raddoppiato slancio contro la statua del nostro antenato <name
+                        type="persona">Cacciaguerra</name>
+                    <name type="persona">Piovasco</name> crociato in <name type="luogo">Terrasanta</name>, e diroccano tutti a piè delle
+                    scale: il crociato in frantumi (era di gesso), l’<persName><roleName type="nobile">Abate</roleName></persName> e lui.
+                    Furono ramanzine a non finire, frustate, pensi, reclusione a pane e minestrone freddo. E <name type="persona"
+                        >Cosimo</name>, che si sentiva innocente perché la colpa non era stata sua ma dell’<persName><roleName type="nobile"
+                            >Abate</roleName></persName>, uscì in quell’invettiva feroce: <q>Io me n’infischio di tutti i vostri antenati,
+                        signor padre!</q> - che già annunciava la sua vocazione di ribelle.</p>
+                <p> Nostra sorella lo stesso, in fondo. Anche lei, se pure l’isolamento in cui viveva le era stato imposto da nostro padre,
+                    dopo la storia del <persName><roleName type="nobile">Marchesino</roleName></persName> del- la <name type="persona"
+                        >Mela</name>, era sempre stata un animo ribelle e solitario. Come fosse andata quella volta del <persName><roleName
+                            type="nobile">Marchesino</roleName></persName>, non si seppe mai bene. Figlio d’una famiglia a noi ostile, come
+                    s’era intrufolato in casa? E perché? Per sedurre, anzi, per violentare nostra sorella, si disse nella lunga lite che ne
+                    seguì tra le famiglie. Di fatto, quel bietolone lentigginoso non riuscimmo mai a immaginarcelo come un seduttore, e meno
+                    che mai con nostra sorella, certo più forte di lui, e famosa per fare a braccio di ferro anche con gli stallieri. E poi:
+                    perché fu lui a gridare? E come mai fu trovato, dai servi accorsi insieme a nostro padre, con i calzoni a brandelli,
+                    lacerati come dagli artigli d’una tigre? I Della <name type="persona">Mela</name> mai vollero ammettere che loro figlio
+                    avesse attentato all’onore di <name type="persona">Battista</name> e consentire al matrimonio. Così nostra sorella finì
+                    sepolta in casa, con gli abiti da monaca, pur senz’aver pronunciato voti neppure di terziaria, data la sua dubbia
+                    vocazione.</p>
+                <p>Il suo animo tristo s’esplicava soprattutto nella cucina. Era bravissima nel cucinare, perché non le mancava né </p>
+            </div>
+
+
+            <!-- Pagina 10 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 10 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_10.jpg"/>
+                    <figDesc>foto pagina dieci</figDesc>
+                </figure>
+                <p> la diligenza né la fantasia, doti prime d’ogni cuoca, ma dove metteva le mani lei non si sapeva che sorprese mai
+                    potessero arrivarci in tavola: certi crostini di paté, aveva preparato una volta, fìnissimi a dire il vero, di fegato di
+                    topo, e non ce l’aveva detto che quando li avevamo mangiati e trovati buoni; per non dire delle zampe di cavalletta,
+                    quelle di dietro, dure e seghettate, mes-se a mosaico su una torta; e i codini di porco arrostiti come fossero
+                    ciambelle; e quella volta che fece cuocere un porcospino intero, con tutte le spine, chissà perché, certo solo per farci
+                    impressione quando si sollevò il coprivivande, perché neanche lei, che pure mangiava sempre ogni razza di roba che
+                    avesse preparato, lo volle assaggiare, ancorché fosse un porcospino cucciolo, rosa, certo tenero. Infatti, molta di
+                    questa sua orrenda cucina era studiata solo per la figura, più che per il piacere di farci gustare insieme a lei cibi
+                    dai sapori raccapriccianti. Erano, questi piatti di <name type="persona">Battista</name>, delle opere di finissima
+                    oraferia animale o vegetale: teste di cavolfiore con orecchie di lepre poste su un colletto di pelo di lepre; o una
+                    testa di porco dalla cui bocca usciva, come cacciasse fuori la lingua, un’aragosta rossa, e l’aragosta nelle pinze
+                    teneva la lingua del maiale come se glie l’avesse strappata. Poi le lumache: era riuscita a decapitare non so quante
+                    lumache, e le teste, quelle teste di cavallucci molli molli, le aveva infisse, credo con uno stecchino, ognuna su un
+                    bignè, e parevano, come vennero in tavola, uno stormo di piccolissimi cigni. E ancor più della vista di quei manicaretti
+                    faceva impressione pensare dello zelante accanimento che certo Battista v’aveva messo a prepararli, immaginare le sue
+                    mani sottili mentre smembravano quei corpicini d’animali.</p>
+                <p>Il modo in cui le lumache eccitavano la macabra fantasia di nostra sorella, ci spinse, mio fratello e me, a una
+                    ribellione, che era insieme di solidarietà con le povere bestie straziate, di disgusto per il sapore delle lumache cotte
+                    e d’in- </p>
+            </div>
+
+
+            <!-- Pagina 11 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 11 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_11.jpg"/>
+                    <figDesc>foto pagina undici</figDesc>
+                </figure>
+                <p> sofferenza per tutto e per tutti, tanto che non c’è da stupirsi se di lì <name type="persona">Cosimo</name> maturò il
+                    suo gesto e quel che ne seguì.</p>
+                <p> Avevamo architettato un piano. Come il <persName><roleName type="nobile">Cavalier</roleName></persName> Avvocato portava
+                    a casa un canestro pieno di lumache mangerecce, queste erano messe in cantina in un barile, perché stessero in digiuno,
+                    mangiando solo crusca, e si purgassero. A spostare la copertura di tavole di questo barile appariva una specie
+                    d’inferno, in cui le lumache si muovevano su per le doghe con una lentezza che era già un presagio d’agonia, tra
+                    rimasugli di crusca, strie d’opaca bava aggrumata e lumacheschi escrementi colorati, memoria del bel tempo dell’aria
+                    aperta e delle erbe. Quale di loro era tutta fuori del guscio, a capo proteso e corna divaricate, quale tutta
+                    rattrappita in sé, sporgendo solo diffidenti antenne; altre a crocchio come comari, altre addormentate e chiuse, altre
+                    morte con la chiocciola riversa. Per salvarle dall’incontro con quella sinistra cuoca, e per salvare noi dalle sue
+                    imbandigioni, praticammo un foro nel fondo del barile, e di lì tracciammo, con fili d’erba tritata e miele, una strada
+                    il più possibile nascosta, dietro botti e attrezzi della cantina, per attrarre le lumache sulla via della fuga, fino a
+                    una finestrella che dava in un’aiola incolta e sterposa.</p>
+                <p>Il giorno dopo, quando scendemmo in cantina a controllare gli effetti del nostro piano, e a lume di candela ispezionammo
+                    i muri e gli anditi, <q>- Una qui!... E un’altra qua! - ... E vedi questa dov’è arrivata!</q> - già una fila di lumache
+                    a non lunghi intervalli percorreva dal barile alla finestrella il pavimento e i muri, seguendo la nostra traccia. <q>-
+                        Pre- sto, lumachine! Fate presto, scappate!</q> - non potemmo trattenerci dal dir loro, vedendo le bestiole andare
+                    lemme lemme, non senza deviare in giri oziosi sulle ruvide pareti della cantina, attratte da occasionali depositi e
+                    muffe e ingrommature; ma la cantina era buia, ingombra, accidentata: speravamo che nessuno potesse scoprirle, che
+                    avessero il tempo di scappare tutte. </p>
+            </div>
+
+
+            <!-- Pagina 12 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Pagina 12- Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_12.jpg"/>
+                    <figDesc>foto pagina dodici</figDesc>
+                </figure>
+                <p> Invece, quell’anima senza pace di nostra sorella <name type="persona">Battista</name> percorreva la notte tutta la casa
+                    a caccia di topi, reggendo un candeliere, e con lo schioppo sotto il braccio. Passò in cantina, quella notte, e la luce
+                    del candeliere illuminò una lumaca sbandata sul soffitto, con la scia di bava argentea. Risuonò una fucilata. Tutti nei
+                    letti sobbalzammo, ma subito riaffondammo il capo nei guanciali, avvezzi com’eravamo alle cacce notturne della monaca di
+                    casa. Ma <name type="persona">Battista</name>, distrutta la lumaca e fatto crollare un pezzo d’intonaco con quella
+                    schioppettata irragionevole, cominciò a gridare con la sua vocetta stridula:<q>- Aiuto! Scappano tutte! Aiuto!</q> -
+                    Accorsero i servi mezzo spogliati, nostro padre armato d’una sciabola, l’<persName><roleName type="nobile"
+                            >Abate</roleName></persName> senza parrucca, e il <persName><roleName type="nobile"
+                        >Cavalier</roleName></persName> Avvocato, prim’ancora di capir nulla, per paura di seccature scappò nei campi e andò
+                    a dormire in un pagliaio.</p>
+                <p>Al chiaror delle torce tutti si misero a dar la caccia alle lumache per la cantina, sebbene a nessuno stessero a cuore,
+                    ma ormai erano svegliati e non volevano, per il solito amor proprio, ammettere d’esser stati disturbati per nulla.
+                    Scoprirono il buco nel barile e capirono subito che eravamo stati noi. Nostro padre ci venne ad agguantare in letto, con
+                    la frusta del cocchiere. Finimmo ricoperti di striature viola sulla schiena le natiche e le gambe, chiusi nello stanzino
+                    squallido che ci faceva da prigione.</p>
+                <p>Ci tennero lì tre giorni, a pane acqua insalata cotenne di bue e minestrone freddo (che, fortunatamente, ci piaceva).
+                    Poi, primo pasto in famiglia, come niente fosse stato, tutti a puntino, quel mezzogiorno del <date type="15 giugno">15
+                        giugno</date>: e cos’aveva preparato nostra sorella <name type="persona">Battista</name>, sovrintendente alla
+                    cucina? Zuppa di lumache e pietanza di lumache. <name type="persona">Cosimo</name> non volle toccare neanche un guscio.
+                        <q>- Mangiate o subito vi rinchiudiamo nello stanzino!</q> - Io cedetti, e cominciai a trangugiare quei molluschi.
+                    (Fu un po’ una viltà, da parte mia, e fece sì che mio fratello si sentisse più solo, cosicché nel suo lasciarci c’era
+                    anche una protesta contro di </p>
+            </div>
+
+
+            <!-- Pagina 13 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 13 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_13.jpg"/>
+                    <figDesc>foto pagina tredici</figDesc>
+                </figure>
+                <p> me, che l’avevo deluso; ma avevo solo otto anni, e poi a che vale paragonare la mia forza di volontà, anzi, quella che
+                    po- tevo avere da bambino, con l’ostinazione sovrumana che contrassegnò la vita di mio fratello?)</p>
+                <p>-<q> E allora?</q> - disse nostro padre a <name type="persona">Cosimo</name>.</p>
+                <p>- <q>No, e poi no!</q> - fece <name type="persona">Cosimo</name>, e respinse il piatto.</p>
+                <p>- Via da questa tavola!</p>
+                <p>Ma già <name type="persona">Cosimo</name> aveva voltato le spalle a tutti noi e stava uscendodalla sala.</p>
+                <p>- Dove vai? </p>
+                <p>Lo vedevamo dalla porta a vetri mentre nel vestibolo prendeva il suo tricorno e il suo spadino.</p>
+                <p>- <q>Lo so io!</q> - Corse in giardino.</p>
+                <p> Di lì a poco, dalle finestre, lo vedemmo che s’arrampicava su per l’elce. Era vestito e acconciato con grande proprietà,
+                    come nostro padre voleva venisse a tavola, nonostante i suoi dodici anni: capelli incipriati col nastro al codino,
+                    tricorno, cravatta di pizzo, marsina verde a code, calzonetti color malva, spadino, e lunghe ghette di pelle bianca a
+                    mezza coscia, unica concessione a un modo di vestirsi più intonato alla nostra vita campagnola. (Io, avendo solo otto
+                    anni, ero esentato dalla cipria sui capelli, se non nelle occasioni di gala, e dallo spadino, che pure mi sarebbe
+                    piaciuto portare). Così egli saliva per il nodoso albero, muovendo braccia e gambe per i rami con la sicurezza e la
+                    rapidità che gli venivano dalla lunga pratica fatta insieme.</p>
+                <p>Ho già detto che sugli alberi noi trascorrevamo ore e ore, e non per motivi utilitari come fanno tanti ragazzi, che ci
+                    salgono solo per cercar frutta o nidi d’uccelli, ma per il piacere di superare difficili bugne del tronco e inforcature,
+                    e arrivare più in alto che si poteva, e trovare bei posti dove fermarci a guardare il mondo laggiù, a fare scherzi e
+                    voci a chi passava sotto. Trovai quindi naturale che il primo pensiero di <name type="persona">Cosimo</name>, a
+                    quell’ingiusto accanirsi contro di lui, fosse stato d’arrampicarsi sull’elce, albero a noi </p>
+            </div>
+
+
+            <!-- Pagina 14 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 14 - Capitolo I</head>
+                <figure>
+                    <graphic url="images/pagina_14.jpg"/>
+                    <figDesc>foto pagina quattordici</figDesc>
+                </figure>
+                <p> familiare, e che protendendo i rami all’altezza delle finestre della sala, imponeva il suo contegno sdegnoso e offeso
+                    alla vista di tutta la famiglia.</p>
+                <p>
+                    <q><foreign>- Vorsicht! Vorsicht!</foreign></q> Ora casca, poverino! - esclamò piena d’ansia nostra madre, che ci
+                    avrebbe visto volentieri alla carica sotto le cannonate, ma intanto stava in pena per ogni nostro gioco <name
+                        type="persona">Cosimo</name> salì fino alla forcella d’un grosso ramo dove poteva stare comodo, e si sedette lì, a
+                    gambe penzoloni, a braccia incrociate con le mani sotto le ascelle, la testa insaccata nelle spalle, il tricorno calcato
+                    sulla fronte. Nostro padre si sporse dal davanzale. <q>- Quando sarai stanco di star lì cambierai idea!</q> - gli gridò.
+                        <q>- Non cambierò mai idea,</q> - fece mio fratello, dal ramo. <q>- Ti farò vedere io, appena scendi!</q>
+                    <q>- E io non scenderò più!</q> - E mantenne la parola.</p>
+            </div>
+
+
+            <!-- Pagina 15 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_15.jpg"/>
+                    <figDesc>foto pagina quindici</figDesc>
+                </figure>
+                <p>
+                    <name type="persona">Cosimo</name> era sull’elce. I rami si sbracciavano, alti ponti sopra la terra. Tirava un lieve
+                    vento; c’era sole. Il sole era tra le foglie, e noi per vedere <name type="persona">Cosimo</name> dovevamo farci schermo
+                    con la mano. <name type="persona">Cosimo</name> guardava il mondo dall’albero: ogni cosa, vista di lassù, era diversa, e
+                    questo era già un divertimento. Il viale aveva tutt’un’altra prospettiva, e le aiole, le ortensie, le camelie, il
+                    tavolino di ferro per prendere il caffè in giardino. Più in là le chiome degli alberi si sfìttivano e l’ortaglia
+                    digradava in piccoli campi a scala, sostenuti da muri di pietre; il dosso era scuro di oliveti, e, dietro, l’abitato
+                        d’<name type="luogo">Ombrosa</name> sporgeva i suoi tetti di mattone sbiadito e ardesia, e ne spuntavano pennoni di
+                    bastimenti, là dove sotto c’era il porto. In fondo si stendeva il mare, alto d’orizzonte, ed un lento veliero vi
+                    passava.</p>
+                <p>Ecco che il <persName><roleName type="nobile">Barone</roleName></persName> e la Generalessa, dopo il caffè, uscivano in
+                    giardino. Guardavano un rosaio, ostentavano di non badare a <name type="persona">Cosimo</name>. Si davano il braccio, ma
+                    poi subito si staccavano per discutere e far gesti. Io venni sotto l’elce, invece, come giocando per conto mio, ma in
+                    realtà cercando d’attirare l’attenzione di <name type="persona">Cosimo</name>; lui però mi serbava rancore e restava
+                    lassù a guardar lontano. Smisi, e m’ac- coccolai dietro una panca per poter continuare a osservarlo senz’essere veduto.
+                </p>
+            </div>
+
+
+            <!-- Pagina 16 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 16 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_16.jpg"/>
+                    <figDesc>foto pagina sedici</figDesc>
+                </figure>
+                <p> Mio fratello stava come di vedetta. Guardava tutto, e tutto era come niente. Tra i limoneti passava una donna con un
+                    cesto. Saliva un mulattiere per la china, reggendosi alla coda della mula. Non si videro tra loro; la donna, al rumore
+                    degli zoccoli ferrati, si voltò e si sporse verso strada, ma non fece in tempo. Si mise a cantare allora, ma il
+                    mulattiere passava già la svolta, tese l’orecchio, schioccò la frusta e alla mula disse: <q>- Aah!</q> - E tutto finì
+                    lì. <name type="persona">Cosimo</name> vedeva questo e quello.</p>
+                <p>Per il viale passò l’<persName><roleName type="nobile">Abate</roleName></persName>
+                    <name type="persona">Fauchelafleur</name> col breviario aperto. <name type="persona">Cosimo</name> prese un qualcosa dal
+                    ramo e glielo lasciò cadere in testa; non capii cos’era, forse un ragnetto, o una scheggia di scorza; non lo prese. Con
+                    lo spadino <name type="persona">Cosimo</name> si mise a frugare in un buco del tronco. Ne uscì una vespa arrabbiata, lui
+                    la cacciò via sventolando il tricorno e ne seguì il volo con lo sguardo fino ad una pianta di zucche, dove s’ac- quattò.
+                    Veloce come sempre, il <persName><roleName type="nobile">Cavalier</roleName></persName> Avvocato uscì di casa, prese per
+                    le scalette del giardino e si perse tra i filari della vigna; <name type="persona">Cosimo</name>, per vedere dove
+                    andava, s’arrampicò su un altro ramo. Lì, di tra il fogliame, s’udì un frullo, e s’alzò a volo un merlo. <name
+                        type="persona">Cosimo</name> ci restò male perché era stato lassù tutto quel tempo e non se n’era accorto. Stette a
+                    guardare controsole se ce n’erano degli altri. No, non ce n’erano.</p>
+                <p> L’elce era vicino a un olmo; le due chiome quasi si toccavano. Un ramo dell’olmo passava mezzo metro sopra a un ramo
+                    dell’altro albero; fu facile a mio fratello fare il passo e così conquistare la som- mità dell’olmo, che non avevamo mai
+                    esplorato, per esser alto di palco e poco arrampicabile da terra. Dall’olmo, sempre cercando dove un ramo passava gomito
+                    a gomito con i rami d’un’altra pianta, si passava su un carrubo, e poi su un gelso. Così vedevo <name type="persona"
+                        >Cosimo</name> avanzare da un ramo all’altro, camminando sospeso sul giardino.</p>
+                <p>Certi rami del grande gelso raggiungevano e scavalcavano il muro di cinta della nostra villa, e di là c’era il giardino
+                    dei d’<name type="luogo">Ondariva</name>. Noi, benché confinanti, non sapeva- </p>
+            </div>
+
+
+            <!-- Pagina 17 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 17 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_17.jpg"/>
+                    <figDesc>foto pagina diciassette</figDesc>
+                </figure>
+                <p> mo nulla dei <persName><roleName type="nobile">Marchesi</roleName></persName> d’<name type="luogo">Ondariva</name> e
+                    Nobili d’<name type="luogo">Ombrosa</name>, perché godendo essi da parecchie generazioni di certi diritti feudali su cui
+                    nostro padre vantava pretese, un astio reciproco divideva le due famiglie, così come un muro alto che pareva un mastio
+                    di fortezza divideva le nostre ville, non so se fatto erigere da nostro padre o dal Marchese. S’aggiunga a ciò la
+                    gelosia di cui gli <name type="luogo">Ondariva</name> circondavano il loro giardino, popolato, a quanto si diceva, di
+                    specie di piante mai vedute. Infatti, digià il padre degli attuali <persName><roleName type="nobile"
+                        >Marchesi</roleName></persName>, discepolo di <name type="persona">Linneo</name>, aveva mosso tutte le vaste
+                    parentele che la famiglia contava alle Corti di <name type="luogo">Francia</name> e d’<name type="luogo"
+                        >Inghilterra</name>, per farsi mandare le più preziose rarità botaniche delle colonie, e per anni i bastimenti
+                    avevano sbarcato a <name type="luogo">Ombrosa</name> sacchi di semi, fasci di talee, arbusti in vaso, e perfino alberi
+                    interi, con enormi involti di pan di terra attorno alle radici; finché in quel giardino era cresciuta - dicevano - una
+                    mescolanza di foreste delle Indie e delle <name type="luogo">Americhe</name>, se non addirittura della <name
+                        type="luogo">Nuova Olanda</name>.</p>
+                <p> Tutto quel che ne potevamo vedere noi era l’affacciarsi all’orlo del muro delle foglie oscure d’una pianta nuovamente
+                    importata dalle colonie americane, la magnolia, che sui rami neri sporgeva un carnoso fiore bianco. Dal nostro gelso
+                        <name type="persona">Cosimo</name> fu sulla cornice del muro, fece qualche passo in equilibrio, e poi, tenendosi con
+                    le mani, si calò dall’altra parte, dov’erano le foglie e il fiore di magnolia. Di lì scom- parve alla mia vista; e
+                    quello che ora dirò, come molte delle cose di questo racconto della sua vita, mi furono riferite da lui in seguito,
+                    oppure fui io a ricavarle da sparse testimonianze ed induzioni <name type="persona">Cosimo</name> era sulla magnolia.
+                    Benché fitta di rami questa pianta era ben praticabile a un ragazzo esperto di tutte le specie d’alberi come mio
+                    fratello; e i rami resistevano al peso, ancorché non molto grossi e d’un legno dolce che la punta delle scarpe di <name
+                        type="persona">Cosimo</name> sbucciava, aprendo bianche ferite nel nero della scorza; ed avvolgeva il ragazzo in un
+                </p>
+            </div>
+
+
+            <!-- Pagina 18 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 18 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_18.jpg"/>
+                    <figDesc>foto pagina diciotto</figDesc>
+                </figure>
+                <p> profumo fresco di foglie, come il vento le muoveva, voltandone le pagine in un verdeggiare ora opaco ora brillante. </p>
+                <p> Ma era tutto il giardino che odorava, e se <name type="persona">Cosimo</name> ancora non riusciva a percorrerlo con la
+                    vista, tanto era irregolarmente folto, già lo esplorava con l’olfatto, e cercava di discernerne i vari aromi, che pur
+                    gli erano noti da quando, portati dal vento, giungevano fin nel nostro giardino e ci parevano una cosa sola col segreto
+                    di quella villa. Poi guardava le fronde e vedeva foglie nuove, quali grandi e lustre co- me ci corresse sopra un velo
+                    d’acqua, quali minuscole e pennate, e tronchi tutti lisci o tutti scaglie. </p>
+                <p> C’era un gran silenzio. Solo un volo si levò di piccolissimi luì, gridando. E si sentì una vocetta che cantava:<q> - Oh
+                        là là là! <foreign>La ba-la-nçoire... </foreign></q>- <name type="persona">Cosimo</name> guardò giù. Appesa al ramo
+                    d’un grande albero vi- cino dondolava un’altalena, con seduta una bambina sui dieci anni. </p>
+                <p> Era una bambina bionda, con un’alta pettinatura un po’ buffa per una bimba, un vestito azzurro anche quello troppo da
+                    grande, la gonna che ora, sollevata sull’altalena, traboccava di trine. La bambina guardava a occhi socchiusi e naso in
+                    su, come per un suo vezzo di far la dama, e mangiava una mela a morsi, piegando il capo ogni volta verso la mano che
+                    doveva insieme reggere la mela e reggersi alla fune dell’altalena, e si dava spinte colpendo con la punta degli scarpini
+                    il terreno ogni volta che l’altalena era al punto più basso del suo arco, e soffiava via dalle labbra i frammenti di
+                    buccia di mela morsicata, e cantava: - <q><foreign>Oh là là là! La ba-la-nçoire... </foreign></q>- come una ragazzina
+                    che ormai non le importa più nulla né dell’altalena, né della canzone, né(ma pure un po’ di più) della mela, e ha già
+                    altri pensieri per il capo. </p>
+                <p>
+                    <name type="persona">Cosimo</name>, d’in cima alla magnolia, era calato fino al palco più basso, ed ora stava coi piedi
+                    piantati uno qua uno là in due forcelle e i gomiti appoggiati a un ramo davanti a lui come a un davanzale. I voli
+                    dell’altalena gli portavano la bambina proprio sotto il naso. </p>
+            </div>
+
+
+            <!-- Pagina 19 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 19 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_19.jpg"/>
+                    <figDesc>foto pagina diciannove</figDesc>
+                </figure>
+                <p> Lei non stava attenta e non se n’era accorta. Tutt’a un tratto se lo vide lì, ritto sull’albero, in tricorno e ghette.
+                        -<q> Oh!</q> - disse.</p>
+                <p>La mela le cadde di mano e rotolò al piede della magnolia. <name type="persona">Cosimo</name> sguainò lo spadino,
+                    s’abbassò giù dall’ultimo ramo, raggiunse la mela con la punta dello spadino, la infilzò e la porse alla bambina che nel
+                    frattempo aveva fatto un percorso completo d’altalena ed era di nuovo lì. - La prenda, non s’è sporcata, è solo un po’
+                    ammaccata da una parte.</p>
+                <p>La bambina bionda s’era già pentita d’aver mostrato tanto stupore per quel ragazzetto sconosciuto apparso lì sulla
+                    magnolia, e aveva ripreso la sua aria sussiegosa a naso in su. -<q> Siete un ladro? </q>- disse.</p>
+                <p>-<q> Un ladro?</q> - fece <name type="persona">Cosimo</name>, offeso; poi ci pensò su: lì per lì l’idea gli piacque. -
+                        <q>Io sì,</q> - disse, calcandosi il tricorno sulla fronte. -<q> Qualcosa in contrario?</q></p>
+                <p>- <q>E cosa siete venuto a rubare?</q></p>
+                <p>
+                    <name type="persona">Cosimo</name> guardò la mela che aveva infilzato sulla punta dello spadino, e gli venne in mente
+                    che aveva fame, che non aveva quasi toccato cibo in tavola. -<q> Questa mela,</q> - disse, e prese a sbucciarla con la
+                    lama dello spadino, che teneva, a dispetto dei divieti familiari, affilatissima.</p>
+                <p> -<q> Allora siete un ladro di frutta,</q> - disse la ragazza.</p>
+                <p>Mio fratello pensò alle masnade dei ragazzi poveri d’<name type="luogo">Ombrosa</name>, che scavalcavano i muri e le
+                    siepi e saccheggiavano i frutteti, una genìa di ragazzi che gli era stato insegnato di disprezzare e di sfuggire, e per
+                    la prima volta pensò a quanto doveva essere libera e invidiabile quella vita. Ecco: forse poteva diventare uno come
+                    loro, e vivere così, d’ora in avanti. - <q>Sì,</q> - disse. Aveva tagliato a spicchi la mela e si mise a masticarla.</p>
+                <p>La ragazzina bionda scoppiò in una risata che durò tutto un volo d’altalena, su e giù. - <q>Ma va’! I ragazzi che rubano
+                        la frutta io li conosco! Sono tutti miei amici!</q> E quel- </p>
+            </div>
+
+
+            <!-- Pagina 20 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 20 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_20.jpg"/>
+                    <figDesc>foto pagina venti</figDesc>
+                </figure>
+                <p> li vanno scalzi, in maniche di camicia, spettinati, non con le ghette e il parrucchino!</p>
+                <p> Mio fratello diventò rosso come la buccia della mela. L’esser preso 86 in giro non solo per l’incipriatura, cui non
+                    teneva affatto, ma anche per le ghette, cui teneva moltissimo, e l’esser giudicato d’aspetto inferiore a un ladro di
+                    frutta, a quella genìa fino a un momento prima disprezzata, e soprattutto lo scoprire che quella damigella che faceva da
+                    padrona nel giardino dei d’Ondariva era amica di tutti i ladri di frutta ma non amica sua, tutte queste cose insieme lo
+                    riempirono di dispetto, vergogna e gelosia.</p>
+                <p>- <q>Oh là là là... Con le ghette e il parrucchin!</q> - canterellava la bambina sull’altalena.</p>
+                <p> A lui prese un ripicco d’orgoglio. -<q>Non sono un ladro di quelli che conoscete voi!</q> - gridò. -<q> Non sono affatto
+                        un ladro! Dicevo così per non spaventarvi: perché se sapeste chi sono io sul serio, morireste di paura: sono un
+                        brigante! Un terribile brigante!</q></p>
+                <p> La ragazzina continuava a volargli fin sul naso, si sarebbe detto volesse arrivare a sfiorarlo con le punte dei piedi. -
+                        <q>Ma va’! E dov’è lo schioppo? I briganti hanno tutti lo schioppo! O la spingarda! Io li ho visti! A noi ci hanno
+                        fermato cinque volte la carrozza, nei viaggi dal castello a qua!</q></p>
+                <p>- <q>Ma il capo no! Io sono il capo! Il capo dei briganti non ha lo 87 schioppo! Ha solo la spada!</q> - e protese il suo
+                    spadino.</p>
+                <p> La ragazzina si strinse nelle spalle. II capo dei briganti, - spiegò, <q>- è uno che si chiama <name type="persona">Gian
+                            dei Brughi</name> e viene sempre a portarci dei regali, a Natale e a Pasqua!</q></p>
+                <p>- <q>Ah!</q> - esclamò <name type="persona">Cosimo</name> di <name type="persona">Rondò</name>, raggiunto da un’ondata di
+                    faziosità familiare. - <q>Allora ha ragione mio padre, quando dice che il Marchese d’<name type="luogo">Ondariva</name>
+                        è il protettore di tutto il brigantaggio e il contrabbando della zona!</q></p>
+                <p>La bambina passò vicino a terra, invece di darsi la spinta frenò con un rapido sgambettio, e saltò giù. L’altalena vuota
+                    sobbalzò in aria sulle corde. - <q>Scendete subito di lassù- </q>
+                </p>
+            </div>
+
+
+            <!-- Pagina 21 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 21 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_21.jpg"/>
+                    <figDesc>foto pagina ventuno</figDesc>
+                </figure>
+                <p>
+                    <q>Come vi siete permesso d’entrare nel nostro terreno!</q> - fece, puntando un indice contro il ragazzo,
+                        incattivita.<q> - Non sono entrato e non scenderò,</q> - disse <name type="persona">Cosimo</name> con pari calore.
+                        -<q>Sul vostro terreno non ho mai messo piede, e non ce lo metterei per tutto l’oro del mondo!</q> . La ragazzina
+                    allora, con gran calma, prese un ventaglio che era posato su una poltrona di vimini, e sebbene non facesse molto caldo,
+                    si sventolò passeggiando avanti e indietro. - Adesso, - fece con tutta calma, - <q>chiamerò i servi e vi farò prendere e
+                        bastonare. Così imparerete a intrufolarvi nel nostro terreno!</q> Cambiava sempre tono, questa bambina, e mio
+                    fratello tutte le volte restava stonato. - Dove son io non è terreno e non è vostro! - proclamò <name type="persona"
+                        >Cosimo</name>, e già gli veniva la tentazione di aggiungere: <emph>«E poi io sono il Duca d’<name type="luogo"
+                            >Ombrosa</name> e sono il signore di tutto il territorio!»</emph> ma si trattenne, perché non gli piaceva di
+                    ripetere le cose che diceva sempre suo padre, adesso che era scappato via da tavola in lite con lui; non gli piaceva e
+                    non gli pareva giusto, anche perché quelle pretese sul Ducato gli erano sempre parse fissazioni; che c’entrava che ci si
+                    mettesse anche lui <name type="persona">Cosimo</name>, ora, a millantarsi Duca? Ma non voleva smentirsi e continuò il
+                    discorso come gli veniva. - <q>Qui non è vostro,</q> - ripetè, - <q>perché vostro è il suolo, e se ci posassi un piede
+                        allora sarei uno che s’intrufola. Ma quassù no, e io vado dappertutto dove mi pare. - Sì, allora è tuo, lassù... -
+                        Certo! Territorio mio personale, tutto quassù,</q> - e fece un vago gesto verso i rami, le foglie controsole, il
+                    cielo. -<q> Sui rami degli alberi è tutto mio territorio. Di’ che vengano a prendermi, se ci riescono!</q> Adesso, dopo
+                    tante rodomontate, s’aspettava che lei lo prendesse in giro chissà come. Invece si mostrò imprevedibilmente interessata.
+                    - <q>Ah sì? E fin dove arriva, questo tuo territorio? - Tutto fin dove si riesce ad arrivare andando sopra gli alberi,
+                        di qua, di là, oltre il muro, nell’oliveto, fin sulla collina, dall’altra parte della collina, nel bosco, nelle
+                        terre del Vescovo..</q>
+                </p>
+            </div>
+
+
+            <!-- Pagina 22 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 22 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_22.jpg"/>
+                    <figDesc>foto pagina ventidue</figDesc>
+                </figure>
+
+                <p>- Anche fino in <name type="luogo">Francia</name></p>
+                <p>- Fino in <name type="luogo">Polonia</name> e in <name type="luogo">Sassonia</name>, - disse <name type="persona"
+                        >Cosimo</name>, che di geografia sapeva solo i nomi sentiti da nostra madre quando parlava delle Guerre di
+                    Successione. - <q> Ma io non sono egoista come te. Io nel mio territorio ti ci invito -. Ormai erano passati a darsi del
+                        tu tutt’e due, ma era lei che aveva cominciato.</q></p>
+                <p>- <q>E l’altalena di chi è?</q> - disse lei, e ci si sedette, col ventaglio aperto in mano.</p>
+                <p>- <q>L’altalena è tua,</q> - stabilì <name type="persona">Cosimo</name>, - <q>ma siccome è legata a questo ramo, dipende
+                        sempre da me. Quindi, se tu ci stai mentre tocchi terra coi piedi, stai nel tuo, se ti sollevi per aria sei nel
+                        mio.</q></p>
+                <p> Lei si dette la spinta e volò, le mani strette alle funi. <name type="persona">Cosimo</name> dalla magnolia saltò sul
+                    grosso ramo che reggeva l’altalena, e di là afferrò le funi e si mise lui a farla dondolare. L’altalena andava sempre
+                    più in su.</p>
+                <p>- <q>Hai paura?</q></p>
+                <p>- <q>Io no. Come ti chiami?</q></p>
+                <p>- <q>Io <name type="persona">Cosimo</name>... E tu?</q></p>
+                <p> - <q><name type="persona">Violante</name> ma mi dicono <name type="persona">Viola</name>.</q>
+                </p>
+                <p>- <q>A me mi chiamano <name type="persona">Mino</name>, anche, perché <name type="persona">Cosimo</name> è un nome da
+                        vecchi.</q></p>
+                <p> - <q>Non mi piace.</q></p>
+                <p> - <name type="persona">Cosimo</name>?</p>
+                <p>- No, <name type="persona">Mino</name>.</p>
+                <p>- <q>Ah... Puoi chiamarmi <name type="persona">Cosimo</name>.</q></p>
+                <p>
+                    <q>Neanche per idea! Senti, tu, dobbiamo fare patti chiari. - Come dici?</q> - fece lui, che continuava a restarci male
+                    ogni volta.</p>
+                <p>-<q> Dico: io posso salire nel tuo territorio e sono un’ospite sacra, va bene? Entro ed esco quando voglio. Tu invece
+                    </q></p>
+            </div>
+
+
+            <!-- Pagina 23 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 23 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_23.jpg"/>
+                    <figDesc>foto pagina ventitre</figDesc>
+                </figure>
+                <p> sei sacro e inviolabile finché sei sugli alberi, nel tuo territorio, ma appena tocchi il suolo del mio giardino diventi
+                    mio schiavo e vieni incatenato.</p>
+                <p>- <q>No, io non scendo nel tuo giardino e nemmeno nel mio. Per me è tutto territorio nemico ugualmente. Tu verrai su con
+                        me, e verranno i tuoi amici che rubano la frutta, forse anche mio fratello <name type="persona">Biagio</name>,
+                        sebbene sia un po’ vigliacco, e faremo un esercito tutto sugli alberi e ridurremo alla ragione la terra e i suoi
+                        abitanti.</q></p>
+                <p>- <q>No, no, niente di tutto questo. Lascia che ti spieghi come stanno le cose. Tu hai la signoria degli alberi, va
+                        bene?, ma se tocchi una volta terra con un piede, perdi tutto il tuo regno e resti l’ultimo degli schiavi. Hai
+                        capito? Anche se ti si spezza un ramo e caschi, tutto perduto!</q></p>
+                <p>- <q>Io non sono mai caduto da un albero in vita mia!</q></p>
+                <p>- <q>Certo, ma se caschi, se caschi diventi cenere e il ven- to ti porta via.</q></p>
+                <p>- <q>Tutte storie. Io non vado a terra perché non voglio.</q></p>
+                <p>
+                    <q> Oh, come sei noioso.</q></p>
+                <p> - <q>No, no, giochiamo. Per esempio, sull'altalena potrei starci? </q></p>
+                <p> -<q>Se ti riuscisse di sederti sull'altalena senza toccar terra, sì.</q></p>
+                <p> Vicino all'altalena di <name type="persona">Viola</name> ce n'era un'altra, appesa allo stesso ramo, ma tirata su con un
+                    nodo alle funi perché non s'urtassero. <name type="persona">Cosimo</name> dal ramo si lasciò scendere giù aggrap- pato a
+                    una delle funi, esercizio in cui era molto bravo per- ché nostra madre ci faceva fare molte prove di palestra, ar- rivò
+                    al nodo, lo sciolse, si pose in piedi sull'altalena e per darsi lo slancio spostò il peso del corpo piegandosi sul- le
+                    ginocchia e scattando avanti. Così si spingeva sempre più in su. Le due altalene andavano una in un senso una nell'altro
+                    e ormai arrivavano alla stessa altezza, e si pas- savano vicino a metà percorso.</p>
+                <p>
+                    <q>Ma se tu provi a sederti e a darti una spinta coi piedi, vai più in alto, insinuò <name type="persona">Viola</name>.
+                    </q></p>
+            </div>
+
+
+            <!-- Pagina 24 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 24 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_24.jpg"/>
+                    <figDesc>foto pagina ventiquattro</figDesc>
+                </figure>
+                <p>
+                    <name type="persona">Cosimo</name> le fece uno sberleffo.</p>
+                <p>- <q>Vieni giù a darmi una spinta, sii bravo, </q>- fece lei, sorridendogli, gentile.</p>
+                <p> - <q>ma io, s’era detto che non devo scendere a nessun costo... </q>- e <name type="persona">Cosimo</name> ricominciava
+                    a non capire.</p>
+                <p> - <q>Sii gentile.</q></p>
+                <p> - <q>No.</q></p>
+                <p>- <q>Ah, ah! Stavi già per cascarci. Se mettevi un piede per terra avevi già perso tutto!</q> - <name type="persona"
+                        >Viola</name> scese dall’altalena e prese a dare delle leggere spinte all’altalena di <name type="persona"
+                        >Cosimo</name>. - Uh! - Aveva afferrato tutt’a un tratto il sedile dell’altalena su cui mio fratello teneva i piedi
+                    e l’aveva rovesciato. Fortuna che <name type="persona">Cosimo</name> si teneva ben saldo alle corde! Altrimenti sarebbe
+                    piombato a terra come un salame!</p>
+                <p> - <q>Traditrice!</q> - gridò, e s’arrampicò su, stringendosi alle due corde, ma la salita era molto più difficile della
+                    discesa, soprattutto con la bambina bionda che era in uno dei suoi momenti maligni e tirava le corde da giù in tutti i
+                    sensi.</p>
+                <p> Finalmente raggiunse il grosso ramo, e ci si mise a cavalcioni. Con la cravatta di pizzo s’asciugò il sudore dal viso. -
+                        <q>Ah! ah! Non ce l’hai fatta!</q></p>
+                <p>- <q>Per un pelo!</q></p>
+                <p>- <q>Ma io ti credevo mia amica!</q></p>
+                <p>- <q>Credevi!</q> - e riprese a sventagliarsi.</p>
+                <p>- <q><name type="persona">Violante</name></q>! - proruppe in quel momento un’acuta voce femminile. <q>Con chi stai
+                        parlando?</q></p>
+                <p> Sulla scalinata bianca che portava alla villa era apparsa una signora: alta, magra, con una larghissima gonna; guardava
+                    con l’occhialino. <name type="persona">Cosimo</name> si ritrasse tra le foglie, intimidito.</p>
+                <p>- Con un giovane, ma tante, - disse la bambina, - che è nato in cima a un albero e per incantesimo non può metter piede a
+                    terra.</p>
+                <p><name type="persona">Cosimo</name>, tutto rosso, domandandosi se la bambina parlava così per prenderlo in giro davanti
+                    alla zia, o per prendere in </p>
+            </div>
+
+            <!-- Pagina 25 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Pagina 25 - Capitolo II</head>
+                <figure>
+                    <graphic url="images/pagina_25.jpg"/>
+                    <figDesc>foto pagina venticinque</figDesc>
+                </figure>
+                <p> giro la zia davanti a lui, o solo per continuare il gioco, o perché non le importava nulla né di lui né della zia né del
+                    gioco, si vedeva scrutato dall’occhialino della dama, che s’avvicinava all’albero come per contemplare uno strano
+                    pappagallo.</p>
+                <p>- <q>Uh, <foreign>mais c’est un des Piovasques, ce jeune homme, je crois. Viens, </foreign><name type="persona"
+                            >Violante</name></q></p>
+                <p>.<name type="persona">Cosimo</name> avvampava d’umiliazione: l’averlo riconosciuto con quell’aria naturale, nemmeno
+                    domandandosi perché lui era lì, e l’aver subito richiamato la bambina, con fermezza ma senza severità, e <name
+                        type="persona">Viola</name> che docile, senza neanche voltarsi, seguiva il richiamo della zia; tutto pareva
+                    sottintendere ch’egli era persona di nessun conto, che quasi non esisteva nemmeno. Così quel pomeriggio straordinario
+                    sprofondava in una nube di vergogna.</p>
+                <p> Ma ecco che la bambina fa segno alla zia, la zia abbassa il capo, la bambina le dice qualcosa nell’orecchio. La zia
+                    ripunta l’occhialino su <name type="persona">Cosimo</name>. - <q>Allora, signorino, - gli dice, - vuol favorire a
+                        prendere una tazza di cioccolata? Così faremo conoscenza anche noi, - e dà un’occhiata di sbieco a <name
+                            type="persona">Viola</name>, - visto che è già amico di famiglia.</q></p>
+                <p> Restò lì a guardare zia e nipote a occhi tondi, <name type="persona">Cosimo</name>. Gli batteva forte il cuore. Ecco che
+                    era invitato dai d’Ondariva e d’<name type="luogo">Ombrosa</name>, la famiglia più sussiegosa di quei posti, e
+                    l’umiliazione d’un momento prima si trasformava in rivincita e si vendicava di suo padre, venendo accolto da avversari
+                    che l’avevano sempre guardato dall’alto in basso, e <name type="persona">Viola</name> aveva interceduto per lui, e lui
+                    era ormai ufficialmente accettato come amico di <name type="persona">Viola</name>, e avrebbe giocato con lei in quel
+                    giardino diverso da tutti i giardini. Tutto questo provò <name type="persona">Cosimo</name>, ma, insieme, un sentimento
+                    opposto, se pur confuso: un sentimento fatto di timidezza, orgoglio, solitudine, puntiglio; e in questo contrasto di
+                    sentimenti mio fratello s’afferrò al ramo sopra di sé, s’arrampicò, si spostò nella parte più frondosa, passò su di un
+                    altro albero, disparve. </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
